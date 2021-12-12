@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  background-image: url(bback.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*----------------------------------top Image-------------------------------*/
+.btop img {
+  width: 100%;
+  position: absolute;
+}
+
+/*h1{
+  z-index: 1;
+  margin-top: 45%;
+  position: absolute;
+}*/
+/*-----------------Navigation bar styles------------------*/
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CBAF87;
+}
+
+.loc {
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+li {
+  float: right;
+  margin: 0;
+}
+
+li a {
+  display: block;
+  margin: 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+.nav a:hover {
+  background-color: #E7DEC8;
+}
+
+.active {
+  background-color: #E7DEC8;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+div ul {
+  background-color: inherit;
+  margin: 10px;
+  padding-right: 15px;
+}
+
+div li a {
+  font-size: 20px;
+  color: black;
+}
+
+.login a:hover {
+  border-bottom: 3px solid red;
+  transition: 0.5s;
+}
+
+/*--------------------------Check Availability------------------------*/
+footer {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 100px;
+  right: 18%
+}
+
+table {
+  border-spacing: 15px;
+  font-size: 20px;
+  color: #3F0713;
+}
+
+th {
+  text-align: left;
+}
+
+input[type="number"] {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #E7EAF6;
+}
+
+input[type="date"] {
+  height: 30px;
+  font-size: 30px;
+  background-color: #E7EAF6;
+}
+
+input[type=button] {
+  height: 45px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #C36A2D;
+}
+
+input[type=button]:hover {
+  background-color: #E2C275;
+}
+
+/*-----------------------------------bottom Image------------------------*/
+.bbottom img {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, 120%);
+}

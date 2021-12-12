@@ -1,0 +1,151 @@
+*{
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*-----------------Navigation bar styles------------------*/
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CBAF87;
+}
+
+.loc{
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+li{
+  float: right;
+  margin: 0;
+}
+
+li a{
+  display: block;
+  margin: 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+.nav a:hover{
+  background-color: #E7DEC8;
+}
+
+.active{
+  background-color: #E7DEC8;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+div ul{
+  background-color: inherit;
+  margin: 10px;
+  padding-right: 15px;
+}
+
+div li a{
+  font-size: 20px;
+  color: black;
+}
+
+.login a:hover{
+  border-bottom: 3px solid red;
+  transition: 0.5s;
+}
+
+/*---------------------------Star---------------------------*/
+.star img{
+  position: relative;
+  top: 80px;
+}
+
+/*--------------------------Welcome Note---------------------*/
+h1{
+  position: relative;
+  top: 80px;
+  font-size: 70px;
+  color: #F7CA44;
+  font-family: "Diplomata", fantasy;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  position: relative;
+  top: 90px;
+  text-align: center;
+  font-size: 60px;  font-family: "Sofia", fantasy;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  position: relative;
+  top: 80px;
+  font-size: 50px;
+  font-family: "Sofia";
+  color: #4B778D;
+  margin: 0;
+  padding: 0;
+}
+
+input{
+  position: relative;
+  top: 80px;
+  height: 40px;
+  width: 120px;
+  background-color: #AA530E;
+  color: white;
+}
+input:hover{
+  background-color: red;
+  transform: scale(1.1);
+}
+
+/*-------------------------------Footer-------------------------------------*/
+footer{
+  display: block;
+  margin-bottom: 0;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 200px;
+   background-color: #7D0000;
+   color: white;
+ }
+
+/*------------Footer image-------------*/
+.fimg img{
+  width: 40px;
+}
+
+hr{
+  width: 30%;
+  border-style: groove;
+}
+
+.ftable img{
+  width: 30px;
+}

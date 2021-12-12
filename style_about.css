@@ -1,0 +1,140 @@
+*{
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #E7DEC8;
+}
+
+/*-----------------Navigation bar styles------------------*/
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CBAF87;
+}
+
+.loc{
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+li{
+  float: right;
+  margin: 0;
+}
+
+li a{
+  display: block;
+  margin: 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+.nav a:hover{
+  background-color: #E7DEC8;
+}
+
+.active{
+  background-color: #E7DEC8;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+div ul{
+  background-color: inherit;
+  margin: 10px;
+  padding-right: 15px;
+}
+
+div li a{
+  font-size: 20px;
+  color: black;
+}
+
+.login a:hover{
+  border-bottom: 3px solid red;
+  transition: 0.5s;
+}
+
+/*---------------------------Star---------------------------*/
+.star img{
+  position: relative;
+  top: 80px;
+}
+
+/*--------------------------Welcome Note---------------------*/
+h1{
+  position: relative;
+  top: 80px;
+  font-size: 70px;
+  color: #F7CA44;
+  font-family: "Diplomata", fantasy;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  padding: 0;
+  position: relative;
+  top: 120px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Diplomata", fantasy;
+}
+
+/*------------------Content--------------*/
+.content h3{
+  margin: 0;
+  font-size: 22px;
+  position: relative;
+  top: 10px;
+}
+
+.content{
+  position: relative;
+  top: 120px;
+  margin-bottom: 380px;
+  right: -200px;
+  font-size: 19px;
+}
+
+/*-------------------------------Footer-------------------------------------*/
+footer {
+  display: block;
+  margin-bottom: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #7D0000;
+  color: white;
+}
+
+/*------------Footer image-------------*/
+.fimg img {
+  width: 40px;
+}
+
+hr {
+  width: 30%;
+  border-style: groove;
+}
+
+.ftable img {
+  width: 30px;
+}
